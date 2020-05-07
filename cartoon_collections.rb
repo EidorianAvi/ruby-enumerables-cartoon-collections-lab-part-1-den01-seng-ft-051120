@@ -9,3 +9,8 @@
 #     puts "#{index + 1}. #{name}"
 #   end
 # end
+
+def greet_methods(array)
+  array.each do |name|
+    puts
+end
