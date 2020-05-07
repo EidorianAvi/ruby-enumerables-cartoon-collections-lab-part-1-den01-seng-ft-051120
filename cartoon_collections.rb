@@ -12,5 +12,6 @@
 
 def greet_methods(array)
   array.each do |name|
-    puts
+    puts "Hello #{name}!"
+  end
 end
