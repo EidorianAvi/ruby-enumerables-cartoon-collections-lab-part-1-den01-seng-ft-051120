@@ -15,3 +15,9 @@ def greet_characters(array)
     puts "Hello #{name}!"
   end
 end
+
+def list_dwarves(array)
+  array.each_with_index |dwarves, index| do 
+    puts "#{index + 1}. #{dwarves}"
+  end
+end
